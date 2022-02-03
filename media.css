@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px) {
+    li {
+        display: none;
+    }
+
+    .box {
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+   
+    .section-1-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .giris-btn {
+        display: none;
+    }
+
+   
+}
+
+@media screen and (max-width: 370px) {
+    .kayit-btn {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 361px) {
+    .s-1-kayit {
+        display: none;
+    }
+}

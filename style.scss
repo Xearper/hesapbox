@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #F5F6FA;
+    color: rgb(43, 43, 43);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+    transition: all .2s ease;
+    
+
+
+
+
+
+}
+
+a:hover {
+    color: black;
+    
+}
+
+.fas {
+    margin-right: .7rem;
+}
+
+// Header
+
+header {
+    margin:  0;
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 90;
+    box-shadow: 1px 3px 16px rgba(0, 0, 0, 0.123);
+
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin: 0 1.4rem;
+}
+
+.giris-btn {
+   
+    margin-right: .4rem;
+    margin-left: 0;
+}
+
+.kayit-btn {
+    border: 1px solid blue;
+    padding: .7rem 1.5rem;
+    border-radius: 5px;
+    color: blue;
+    transition: all .4s ease-in;
+    
+}
+
+.kayit-btn:hover {
+    transform: translateY(-10px);
+    
+}
+
+// Header end
+
+// Section 1 Start
+
+.section-1  {
+    margin: 10rem 0;
+    h1 {
+        font-weight: 900;
+        margin: 1.4rem 0;
+    }
+
+    span {
+        font-weight: 600;
+        color: rgb(46, 46, 122);
+    }
+
+    p {
+        margin-bottom: 3rem;
+    }
+}
+
+
+
+
+
+
+
+.sisteme-git {
+    background: linear-gradient(blue, blue);
+    padding: 1rem 1.5rem;
+    color: white;
+    border-radius: 5px;
+    
+    transition: all .5s ease;
+    display: inline;
+    margin-right: 10px;
+}
+
+
+.sisteme-git:hover {
+    color: white;
+    transform: translateY(-7px);
+}
+
+
+
+.s-1-kayit {
+    border: 1px solid blue;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    border-radius: 5px;
+    color: blue;
+    transition: all .5s ease-in;
+    
+}
+
+
+.s-1-kayit:hover {
+    transform: translateY(-7px);
+    color: blue;
+}
+
+
+.s-1-btn-wrapper {
+    display: inline-flex;
+
+}
+
+
+
+
+ 
+// Section 1 End
+
+
+
+// Section 2 Start
+
+.section-2 {
+    margin: 10rem 0;
+
+    .fas {
+        color: blue;
+        font-size: 3.5rem;
+        transition: all .4s ease-in;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        margin: 1rem 0;
+    }
+}
+
+
+.box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    transition: all .4s ease-in;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.123);
+
+
+    &:hover {
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+
+
+
+        .fas {
+            color: white;
+        }
+    }
+}
+
+
+
+
+// Section 2 End
