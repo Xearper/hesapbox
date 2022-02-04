@@ -1,16 +1,16 @@
 @media screen and (max-width: 1000px) {
-    li {
-        display: none;
-    }
+ li {
+     display: none;
+ }
 
     .box {
         margin-bottom: 3rem;
     }
 
-    #btt {
-        display: none;
-    }
-
+.s-4-img {
+    margin-bottom: 4rem;
+}
+    
 }
 
 

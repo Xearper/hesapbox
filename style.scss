@@ -11,7 +11,7 @@ body {
     background-color: #F5F6FA;
     color: rgb(43, 43, 43);
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+    
 }
 
 
@@ -213,13 +213,7 @@ li {
     
 }
 
-.anan {
-    background-color: red;
-    height: 300px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+
 
 
 //Section 3 END
@@ -227,18 +221,20 @@ li {
 // Section 4 Start
 
 .section-4 {
-    margin: 3rem 0;
+    margin: 10rem 0;
 }
-
 
 .herkes-guvende {
     font-weight: 600;
 }
 
-.s-4-li {
-    margin: 0;
+.s-4-p {
+    margin: 2rem 0 4rem 0;
 }
 
+.kalın {
+    font-weight: 600;
+}
 
 
 
@@ -248,23 +244,23 @@ li {
 // Section 4 End
 
 // Back To Top Button
-#btt {
+#button {
     display: inline-block;
-    background-color: #090085;
+    background-color: #170099;
     width: 50px;
     height: 50px;
     text-align: center;
     border-radius: 4px;
     position: fixed;
-    bottom: 70px;
-    right: 150px;
+    bottom: 30px;
+    right: 30px;
     transition: background-color .3s, 
       opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
   }
-  #btt::after {
+  #button::after {
     content: "\f077";
     font-family: FontAwesome;
     font-weight: normal;
@@ -273,16 +269,23 @@ li {
     line-height: 50px;
     color: #fff;
   }
-  #btt:hover {
+  #button:hover {
     cursor: pointer;
     background-color: #333;
   }
-  #btt:active {
+  #button:active {
     background-color: #555;
   }
-  #btt.show {
+  #button.show {
     opacity: 1;
     visibility: visible;
   }
-
 // End Back to Top Button
+
+// Footer
+
+footer {
+    background-color: rgb(238, 238, 238);
+    padding: 5rem 18rem 5rem 18rem;
+    justify-content: center;
+}

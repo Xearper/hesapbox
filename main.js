@@ -20,7 +20,7 @@ $('.owl-carousel').owlCarousel({
 });
 
 
-var btn = $('#btt');
+var btn = $('#button');
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 300) {
@@ -32,5 +32,5 @@ $(window).scroll(function() {
 
 btn.on('click', function(e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '200');
+  $('html, body').animate({scrollTop:0}, '300');
 });
