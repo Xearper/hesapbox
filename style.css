@@ -238,8 +238,6 @@ li {
 footer {
   background-color: #eeeeee;
   padding: 5rem 18rem 5rem 18rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
