@@ -6,6 +6,11 @@
     .box {
         margin-bottom: 3rem;
     }
+
+    #btt {
+        display: none;
+    }
+
 }
 
 

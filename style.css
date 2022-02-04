@@ -9,6 +9,7 @@ body {
   background-color: #F5F6FA;
   color: #2b2b2b;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -121,8 +122,8 @@ li {
   display: inline-flex;
   border-radius: 5px;
   color: blue;
-  -webkit-transition: all .5s ease-in;
-  transition: all .5s ease-in;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .s-1-kayit:hover {
@@ -171,5 +172,74 @@ li {
 
 .box:hover .fas {
   color: white;
+}
+
+.owl-prev {
+  margin-right: 2rem;
+}
+
+.anan {
+  background-color: red;
+  height: 300px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-4 {
+  margin: 3rem 0;
+}
+
+.herkes-guvende {
+  font-weight: 600;
+}
+
+.s-4-li {
+  margin: 0;
+}
+
+#btt {
+  display: inline-block;
+  background-color: #090085;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 70px;
+  right: 150px;
+  -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#btt::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#btt:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#btt:active {
+  background-color: #555;
+}
+
+#btt.show {
+  opacity: 1;
+  visibility: visible;
 }
 /*# sourceMappingURL=style.css.map */
